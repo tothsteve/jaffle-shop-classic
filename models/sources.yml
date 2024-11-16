@@ -1,7 +1,7 @@
 version: 2
 sources:
   - name: airbnb
-    schema: Test20241012.dbo
+    schema: Test20241012.dbo.
     tables:
       - name: br_store
         identifier: stores
