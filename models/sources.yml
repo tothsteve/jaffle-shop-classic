@@ -7,4 +7,4 @@ sources:
   - name: jaffle_shop
     schema: dbo
     tables:
-      - name: br_products    
+      - name: v_lh_br_store    
