@@ -1,7 +1,6 @@
 version: 2
 sources:
-  - name: airbnb
+  - name: jaffle_shop
     schema: Test20241012.dbo
     tables:
       - name: br_store
-        identifier: br_store
