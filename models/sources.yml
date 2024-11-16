@@ -1,7 +1,7 @@
 version: 2
 sources:
   - name: jaffle_shop
-    schema: Test20241012.dbo
+    schema: Test20241012
     tables:
       - name: br_store
   - name: jaffle_shop
