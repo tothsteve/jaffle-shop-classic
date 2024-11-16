@@ -4,3 +4,7 @@ sources:
     schema: Test20241012.dbo
     tables:
       - name: br_store
+  - name: jaffle_shop
+    schema: dbo
+    tables:
+      - name: br_products    

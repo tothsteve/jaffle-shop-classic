@@ -1,6 +1,6 @@
 with source as (
 
-    select * from {{ source('jaffle_shop', 'br_store', include_database = False) }}
+    select * from {{ source('jaffle_shop', 'br_products', include_database = False) }}
 
 ),
 
@@ -8,7 +8,7 @@ dbt_stores as (
 
     select
         *
-    from br_store
+    from br_products
 
 )
 
