@@ -4,4 +4,4 @@ sources:
     schema: Test20241012.dbo
     tables:
       - name: br_store
-        identifier: stores
+        identifier: br_store

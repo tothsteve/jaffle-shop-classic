@@ -8,7 +8,7 @@ dbt_stores as (
 
     select
         *
-    from stores
+    from br_store
 
 )
 
