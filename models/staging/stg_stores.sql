@@ -7,7 +7,7 @@ with source as (
 dbt_stores as (
 
     select
-        current_date() load_date,
+        getdate() load_date,
         l.*
      from v_lh_br_store l
 )
