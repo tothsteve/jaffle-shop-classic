@@ -5,7 +5,7 @@ jaffle_shop:
   outputs:
     fabric-dev:
       authentication: ActiveDirectoryPassword
-      user: toth.istvans@ibtconsulting.hu
+      user: toth.istvan@ibtconsulting.hu
       password: Almafa+234
       database: Test20241012_DWH
       host: wot2kmldd4tehg3ww6lz7tbvfe-ph6rhhpdtp6ubkibw3hcsdxhse.datawarehouse.fabric.microsoft.com
