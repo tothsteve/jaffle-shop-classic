@@ -7,7 +7,7 @@ jaffle_shop:
       authentication: ActiveDirectoryPassword
       user: toth.istvan@ibtconsulting.hu
       password: Almafa+234
-      database: Test20241012_DWH
+      database: Test20241012
       host: wot2kmldd4tehg3ww6lz7tbvfe-ph6rhhpdtp6ubkibw3hcsdxhse.datawarehouse.fabric.microsoft.com
       driver: ODBC Driver 18 for SQL Server
       schema: dbo
