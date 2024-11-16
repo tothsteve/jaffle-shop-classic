@@ -1,6 +1,6 @@
 with source as (
 
-    select * from {{ source('airbnb', 'br_store', include_database = False) }}
+    select * from {{ source('jaffle_shop', 'br_store', include_database = False) }}
 
 ),
 
