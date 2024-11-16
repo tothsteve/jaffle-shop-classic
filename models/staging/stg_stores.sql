@@ -1,6 +1,6 @@
 with source as (
 
-    select * from {{ ref('stores') }}
+    select * from {{ source('airbnb', 'br_store') }}
 
 ),
 
@@ -8,7 +8,7 @@ dbt_stores as (
 
     select
         *
-    from source
+    from stores
 
 )
 
